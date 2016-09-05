@@ -12,3 +12,9 @@ case $monde in
 		echo "reponse NON";
 	;;
 esac 
+
+for i in $(cat foo.bar.txt);
+do
+ 	echo $i;
+done
+
